@@ -17,4 +17,32 @@ export default {
     title: "Comedy",
     url: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
   },
+  fetchHorrorMovies: {
+    title: "Horror",
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=27`,
+  },
+  fetchRomanceMovies: {
+    title: "Romance",
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
+  },
+  fetchMysteryMovies: {
+    title: "Mystery",
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=9648`,
+  },
+  fetchSciFiMovies: {
+    title: "Sci-Fi",
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=878`,
+  },
+  fetchWesternMovies: {
+    title: "Western",
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=37`,
+  },
+  fetchAnimatedMovies: {
+    title: "Animated",
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=16`,
+  },
+  fetchTvMovies: {
+    title: "TV Movies",
+    url: `/discover/movie?api_key=${API_KEY}&with_genres=10770`,
+  },
 };
